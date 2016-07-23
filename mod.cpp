@@ -1,0 +1,12 @@
+name = "Advanced Urban Rappelling";
+picture = "logo.paa";
+description = "Advanced Urban Rappelling";
+logo = "logo.paa";
+logoOver = "logo.paa";
+tooltip = "Advanced Urban Rappelling";
+tooltipOwned = "Advanced Urban Rappelling Owned";
+overview = "Advanced Urban Rappelling";
+author = "[SA] Duda";
+overviewPicture = "logo.paa";
+overviewText = "Advanced Urban Rappelling";
+overviewFootnote = "";
