@@ -38,7 +38,7 @@ There are a few ways to rappel AI units:
  
 **Installation:**
 
- 1. Subscribe via steam: http://steamcommunity.com/sharedfiles/filedetails/?id=713709341 or download latest release from https://github.com/sethduda/AdvancedUrbanRappelling/releases
+ 1. Subscribe via steam: xxxxxx or download latest release from https://github.com/sethduda/AdvancedUrbanRappelling/releases
  2. If installing this on a server, add the addon to the -serverMod command line option. It's required on the server side and is optional for clients. It's recommended to put the addon's key in your server's key directory so clients can optionally enable the addon. If clients have the addon enabled, they'll be able to shoot while rappelling and will have custom animations and sounds.
 
 **Notes for Mission Makers:**
