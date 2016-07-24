@@ -48,13 +48,11 @@ If you want to script AI to rappel, you can use the AUR_Rappel_Unit function. Pl
 Then, via scripting (e.g. using trigger activation) call this function:
 
 ```
-[UNIT, ROPE_LENGTH] spawn AUR_Rappel_Unit;
+[UNIT] spawn AUR_Rappel_Unit;
 ```
 
 Params: 
-
 UNIT = The unit that should rappel
-ROPE_LENGTH = Rope length in meters (Optional, defaults to 60 if not specified)
 
 The unit will then rappel down the edge.
 
@@ -66,6 +64,7 @@ If you want more control, you can use the optional parameters:
 
 Params:
 
+ROPE_LENGTH = Rope length in meters (Optional, defaults to 1.3x height above ground)
 ANCHOR_POSITION = Position ASL where the rope should attach (Defaults to edge next to unit if not specified)
 RAPPEL_DIRECTION = Unit vector direction that the unit should jump off when starting rappelling (e.g away from the building). If the unit is facing the direction they should jump off, you can get this via the command vectorDir UNIT.
 
