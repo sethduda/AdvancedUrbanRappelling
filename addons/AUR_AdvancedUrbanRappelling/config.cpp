@@ -2,6 +2,9 @@ class CfgPatches
 {
 	class AUR_AdvancedUrbanRappelling
 	{
+		author = "duda123";
+		name = "Advanced Urban Rappelling";
+		url = "https://github.com/sethduda/AdvancedUrbanRappelling";
 		units[] = {"AUR_AdvancedUrbanRappelling"};
 		requiredVersion = 1.0;
 		requiredAddons[] = {"A3_Modules_F"};
