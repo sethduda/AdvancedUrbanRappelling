@@ -226,6 +226,7 @@ class CfgMovesBasic
 			Unconscious="AUR_01_Die_Pistol";
 		};
 	};
+	class BlendAnims;
 };
 class CfgMovesMaleSdr: CfgMovesBasic
 {
@@ -545,7 +546,6 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			showHandGun=1;
 		};
 	};
-	class BlendAnims;
 	class BlendAnims: BlendAnims
 	{
 		aimingDefault_Rope[] = {"head",0.6,"neck1",0.6,"neck",0.6,"weapon",1,"launcher",1,"RightShoulder",0.8,"RightArm",0.8,"RightArmRoll",1,"RightForeArm",1,"RightForeArmRoll",1,"RightHand",1,"RightHandRing",1,"RightHandPinky1",1,"RightHandPinky2",1,"RightHandPinky3",1,"RightHandRing1",1,"RightHandRing2",1,"RightHandRing3",1,"RightHandMiddle1",1,"RightHandMiddle2",1,"RightHandMiddle3",1,"RightHandIndex1",1,"RightHandIndex2",1,"RightHandIndex3",1,"RightHandThumb1",1,"RightHandThumb2",1,"RightHandThumb3",1,"Spine",0.3,"Spine1",0.4,"Spine2",0.5,"Spine3",0.6};
