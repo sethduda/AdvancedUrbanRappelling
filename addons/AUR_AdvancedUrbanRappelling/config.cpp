@@ -32,7 +32,10 @@ class CfgFunctions
 		class AdvancedUrbanRappelling
 		{
 			file = "\AUR_AdvancedUrbanRappelling\functions";
-			class advancedUrbanRappellingInit{postInit=1};
+			class advancedUrbanRappellingInit
+			{
+				postInit=1;
+			};
 		};
 	};
 };
